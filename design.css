@@ -13,6 +13,40 @@
 ul, li {
     list-style: none;
 }
+@media screen and ( max-width :1280px ){
+    #wrapper {
+    width: 1280px;
+    margin: 20px auto;
+}
+.data-container {
+    margin-top: 20px;
+}
+
+.data-container ul {
+    padding: 0;
+    margin: 0;
+}
+
+.data-container li {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background: #eee;
+    color: #666;
+}
+.divMovies img{
+    padding-left: 20%;
+}
+.divMovies li{
+    background-color: white;
+}
+.liInfo{
+    width: 25%;
+    margin-left: 20%;
+}
+#pagination-demo2{
+    margin-left: 30%;
+}
+}
 @media screen and ( min-width :1200px ){
             #wrapper {
             width: 900px;
@@ -48,200 +82,9 @@ ul, li {
             margin-left: 40%;
         }
 }
-
-@media screen and ( width :360px ){
-        #wrapper {
-        width: 360px;
-    }
-
-    .data-container {
-        margin-top: 20px;
-    }
-
-    .data-container ul {
-        padding: 0;
-        margin: 0;
-    }
-
-    .data-container li {
-        margin-bottom: 5px;
-        padding: 5px 10px;
-        background: #eee;
-        color: #666;
-    }
-    .divMovies img{
-        width: 300px;
-        padding-right: 4%;
-    }
-    .divMovies li{
-        background-color: white;
-    }
-    .liInfo{
-        width: 25%;
-        color: red;
-    }
-    #pagination-demo2{
-        margin-left: 5%;
-        margin-top: 3%;
-        margin-bottom: 3%;
-    }
-}
-
-@media screen and (max-width :412px) {
-            #wrapper {
-            width: 400px;
-        }
-
-        .data-container {
-            margin-top: 20px;
-        }
-
-        .data-container ul {
-            padding: 0;
-            margin: 0;
-        }
-
-        .data-container li {
-            margin-bottom: 5px;
-            padding: 5px 10px;
-            background: #eee;
-            color: #666;
-        }
-        .divMovies img{
-            width: 300px;
-            padding-left: 16%;
-        }
-        .divMovies li{
-            background-color: white;
-        }
-        .liInfo{
-            width: 60%;
-            margin-left: 16%;
-        }
-        #pagination-demo2{
-            margin-left: 17%;
-            margin-top: 3%;
-            margin-bottom: 3%;
-        }
-}
-@media screen and (max-width :415px) {
-        #wrapper {
-        width: 400px;
-    }
-
-    .data-container {
-        margin-top: 20px;
-    }
-
-    .data-container ul {
-        padding: 0;
-        margin: 0;
-    }
-
-    .data-container li {
-        margin-bottom: 5px;
-        padding: 5px 10px;
-        background: #eee;
-        color: #666;
-    }
-    .divMovies img{
-        width: 300px;
-        padding-left: 16%;
-    }
-    .divMovies li{
-        background-color: white;
-    }
-    .liInfo{
-        width: 60%;
-        margin-left: 16%;
-    }
-    #pagination-demo2{
-        margin-left: 17%;
-        margin-top: 3%;
-        margin-bottom: 3%;
-    }
-}
-
 @media screen and (max-width :1025px) {
-        #wrapper {
-        width: 1000px;
-    }
-
-    .data-container {
-        margin-top: 20px;
-    }
-
-    .data-container ul {
-        padding: 0;
-        margin: 0;
-    }
-
-    .data-container li {
-        margin-bottom: 5px;
-        padding: 5px 10px;
-        background: #eee;
-        color: #666;
-    }
-    .divMovies img{
-        width: 700px;
-        padding-left: 16%;
-    }
-    .divMovies li{
-        background-color: white;
-    }
-    .liInfo{
-        width: 60%;
-        margin-left: 16%;
-        font-size: 30px;
-    }
-    #pagination-demo2{
-        margin-left: 30%;
-        margin-top: 3%;
-        margin-bottom: 3%;
-    }
-}
-
-@media screen and (max-width :320px) {
-        #wrapper {
-        width: 300px;
-    }
-
-    .data-container {
-        margin-top: 20px;
-    }
-
-    .data-container ul {
-        padding: 0;
-        margin: 0;
-    }
-
-    .data-container li {
-        margin-bottom: 5px;
-        padding: 5px 10px;
-        background: #eee;
-        color: #666;
-    }
-    .divMovies img{
-        width: 200px;
-        padding-right: 10%;
-    }
-    .divMovies li{
-        background-color: white;
-    }
-    .liInfo{
-        width: 20%;
-        margin-left: 16%;
-        font-size: 20px;
-    }
-    #pagination-demo2{
-        margin-left: 5%;
-        margin-top: 3%;
-        margin-bottom: 3%;
-    }
-}
-@media screen and (max-width :541px) {
     #wrapper {
-    width: 500px;
+    width: 1000px;
 }
 
 .data-container {
@@ -260,8 +103,8 @@ ul, li {
     color: #666;
 }
 .divMovies img{
-    width: 500px;
-    padding-right: 20%;
+    width: 700px;
+    padding-left: 16%;
 }
 .divMovies li{
     background-color: white;
@@ -269,10 +112,10 @@ ul, li {
 .liInfo{
     width: 60%;
     margin-left: 16%;
-    font-size: 20px;
+    font-size: 30px;
 }
 #pagination-demo2{
-    margin-left: 25%;
+    margin-left: 30%;
     margin-top: 3%;
     margin-bottom: 3%;
 }
@@ -315,3 +158,194 @@ ul, li {
     margin-bottom: 3%;
 }
 }
+@media screen and (max-width :541px) {
+    #wrapper {
+    width: 500px;
+}
+
+.data-container {
+    margin-top: 20px;
+}
+
+.data-container ul {
+    padding: 0;
+    margin: 0;
+}
+
+.data-container li {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background: #eee;
+    color: #666;
+}
+.divMovies img{
+    width: 500px;
+    padding-right: 20%;
+}
+.divMovies li{
+    background-color: white;
+}
+.liInfo{
+    width: 60%;
+    margin-left: 16%;
+    font-size: 20px;
+}
+#pagination-demo2{
+    margin-left: 25%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+}
+@media screen and (max-width :415px) {
+    #wrapper {
+    width: 400px;
+}
+
+.data-container {
+    margin-top: 20px;
+}
+
+.data-container ul {
+    padding: 0;
+    margin: 0;
+}
+
+.data-container li {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background: #eee;
+    color: #666;
+}
+.divMovies img{
+    width: 300px;
+    padding-left: 16%;
+}
+.divMovies li{
+    background-color: white;
+}
+.liInfo{
+    width: 60%;
+    margin-left: 16%;
+}
+#pagination-demo2{
+    margin-left: 17%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+}
+
+@media screen and (max-width :412px) {
+            #wrapper {
+            width: 400px;
+        }
+
+        .data-container {
+            margin-top: 20px;
+        }
+
+        .data-container ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        .data-container li {
+            margin-bottom: 5px;
+            padding: 5px 10px;
+            background: #eee;
+            color: #666;
+        }
+        .divMovies img{
+            width: 300px;
+            padding-left: 16%;
+        }
+        .divMovies li{
+            background-color: white;
+        }
+        .liInfo{
+            width: 60%;
+            margin-left: 16%;
+        }
+        #pagination-demo2{
+            margin-left: 17%;
+            margin-top: 3%;
+            margin-bottom: 3%;
+        }
+}
+
+@media screen and (max-width :360px ){
+    #wrapper {
+    width: 360px;
+}
+
+.data-container {
+    margin-top: 20px;
+}
+
+.data-container ul {
+    padding: 0;
+    margin: 0;
+}
+
+.data-container li {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background: #eee;
+    color: #666;
+}
+.divMovies img{
+    width: 300px;
+    padding-right: 30%;
+}
+.divMovies li{
+    background-color: white;
+}
+.liInfo{
+    width: 250px;
+    padding-right: 35%;
+}
+#pagination-demo2{
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+}
+
+@media screen and (max-width :320px) {
+        #wrapper {
+        width: 300px;
+    }
+
+    .data-container {
+        margin-top: 20px;
+    }
+
+    .data-container ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .data-container li {
+        margin-bottom: 5px;
+        padding: 5px 10px;
+        background: #eee;
+        color: #666;
+    }
+    .divMovies img{
+        width: 200px;
+        padding-right: 10%;
+    }
+    .divMovies li{
+        background-color: white;
+    }
+    .liInfo{
+        width: 20%;
+        margin-left: 16%;
+        font-size: 20px;
+    }
+    #pagination-demo2{
+        margin-left: 5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+}
+
