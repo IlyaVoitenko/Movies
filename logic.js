@@ -26,10 +26,10 @@ $(function() {
                     window.console && console.log(22, response, pagination);
                     var dataHtml = '<ul>';
                     $.each(response, function (index, item) {
-                        dataHtml += '<div>'
+                        dataHtml += '<div class ="divMovies">'
                         dataHtml += '<li>'+`<img src=${imgBase+item.poster_path}>`+ '</li>';
-                        dataHtml += '<li>' + item.original_title + '</li>';
-                        dataHtml += '<li>' + item.overview + '</li>';
+                        dataHtml += '<li class ="liInfo">' + item.original_title + '</li>';
+                        dataHtml += '<li class ="liInfo">' + item.overview + '</li>';
                         dataHtml += '</div>'
                     });
                     dataHtml += '</ul>';
