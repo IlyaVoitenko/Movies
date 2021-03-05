@@ -23,7 +23,6 @@ $(function() {
                     }
                 },
                 callback: function(response, pagination) {
-                    window.console && console.log(22, response, pagination);
                     var dataHtml = '<ul>';
                     $.each(response, function (index, item) {
                         dataHtml += '<div class ="divMovies">'
