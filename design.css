@@ -1,8 +1,8 @@
 .paginationjs{
     line-height:1.6;
     font-family:Marmelad,"Lucida Grande",Arial,"Hiragino Sans GB",Georgia,sans-serif;font-size:14px;box-sizing:initial}
-    .paginationjs:after{display:table;content:" ";clear:both}.paginationjs
-    
+    .paginationjs:after{display:table;content:" ";clear:both}
+    .paginationjs
     .paginationjs-pages{float:left}.paginationjs 
     .paginationjs-pages ul{float:left;margin:0;padding:0}
     .paginationjs .paginationjs-go-button,.paginationjs .paginationjs-go-input,.paginationjs 
@@ -26,7 +26,6 @@ ul, li {
     padding: 0;
     margin: 0;
 }
-
 .data-container li {
     margin-bottom: 5px;
     padding: 5px 10px;
@@ -293,7 +292,7 @@ ul, li {
     color: #666;
 }
 .divMovies img{
-    width: 300px;
+    width: 340px;
     padding-right: 30%;
 }
 .divMovies li{
@@ -331,14 +330,14 @@ ul, li {
         color: #666;
     }
     .divMovies img{
-        width: 200px;
-        padding-right: 10%;
+        width: 300px;
+        padding-right: 30%;
     }
     .divMovies li{
         background-color: white;
     }
     .liInfo{
-        width: 20%;
+        width: 80%;
         margin-left: 16%;
         font-size: 20px;
     }
@@ -348,4 +347,3 @@ ul, li {
         margin-bottom: 3%;
     }
 }
-
