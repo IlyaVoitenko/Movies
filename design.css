@@ -13,6 +13,7 @@
 ul, li {
     list-style: none;
 }
+
 @media screen and ( max-width :1280px ){
     #wrapper {
     width: 1280px;

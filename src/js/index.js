@@ -23,7 +23,7 @@ $(function() {
                     }
                 },
                 callback: function(response, pagination) {
-                    var dataHtml = '<ul>';
+                    var dataHtml = '<ul class="list">';
                     $.each(response, function (index, item) {
                         dataHtml += '<div class ="divMovies">'
                         dataHtml += '<li>'+`<img src=${imgBase+item.poster_path}>`+ '</li>';
