@@ -7,3 +7,5 @@ module.exports = {
     filename: 'bundle.js'
   }
 };
+import favicon from "serve-favicon";
+server.use(favicon(path.join(__dirname, "../assets/images/favicon.ico")));
