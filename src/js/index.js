@@ -1,4 +1,11 @@
+const express  = require('express')
+const app = express()
 
+const PORT = process.env.PORT || 80
+
+app.listen(PORT,()=>{
+    console.log('Server has been started...');
+})
 $(function() {
     (function(name) {
         fetch(`https://api.themoviedb.org/3/search/movie?api_key=c4de5cdcdbbf6ef28d8e1cce52659a92&language=en-US&page=1&include_adult=false&query=query`)
